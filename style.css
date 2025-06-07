@@ -1,0 +1,1184 @@
+
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f3ede3;
+    font-family: 'Cormorant Garamond', serif;
+    overflow-x: hidden;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.top-bar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar nav ul li a {
+    color: #f3ede3;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.top-bar nav ul li a:hover {
+    color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.logo img {
+    height: 40px;
+    display: block;
+}
+
+.buy-ticket-top {
+    background-color: transparent;
+    color: #f3ede3 !important;
+    padding: 0;
+    border-radius: 0;
+    font-weight: normal;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.buy-ticket-top:hover {
+    background-color: transparent;
+    color: #ffffff !important;
+}
+
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    padding-top: 5vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #E5DAC8;
+}
+
+.hero-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+    object-position: left center;
+    z-index: 1;
+}
+
+.artwork-grid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.artwork-item {
+    position: absolute;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artwork-item:hover {
+    transform: scale(1.05) rotate(0deg) !important;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+
+.item-1 {
+    top: 25%;
+    left: 8%;
+    width: 280px;
+    transform: rotate(-15deg);
+    z-index: 2;
+}
+
+.item-2 {
+    top: 10%;
+    left: 30%;
+    width: 250px;
+    transform: rotate(-7deg);
+    z-index: 1;
+}
+
+.item-3 {
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%) rotate(5deg);
+    width: 220px;
+    z-index: 1;
+}
+
+.item-4 {
+    top: 12%;
+    right: 15%;
+    width: 300px;
+    transform: rotate(12deg);
+    z-index: 2;
+}
+
+.item-5 {
+    bottom: 20%;
+    right: 5%;
+    width: 180px;
+    transform: rotate(-8deg);
+    z-index: 1;
+}
+
+
+.hero-text {
+    position: relative;
+    z-index: 50;
+    margin-top: 15vh;
+    margin-bottom: 2rem;
+}
+
+.hero-text h1 {
+    font-size: 5.5rem;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.script-font {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+}
+
+
+.hero-buy-btn {
+    display: inline-block;
+    background-color: #f3ede3;
+    color: #121212;
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 2.5rem;
+    z-index: 60;
+    position: relative;
+}
+
+.hero-buy-btn:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+.location-text-bottom {
+    display: block;
+    position: relative;
+    bottom: unset;
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    color: #b0b0b0;
+    z-index: 50;
+}
+
+
+.info-section {
+    background-color: #121212;
+    padding: 6rem 4rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url('images/background-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+.right-column {
+    flex: 2;
+    max-width: 600px;
+    padding-left: 2rem;
+}
+
+.question h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: #f3ede3;
+}
+
+.date-range {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: #f3ede3;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.date-range .line {
+    flex: 1;
+    max-width: 120px;
+    height: 2px;
+    background-color: #f3ede3;
+}
+
+.info-section-buy-btn {
+    display: inline-block;
+    background-color: #f3ede3;
+    color: #121212;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: flex-start;
+}
+
+.info-section-buy-btn:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.exh h3 {
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.info-text h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #b0b0b0;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.info-text p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #b0b0b0;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+
+
+.author-section {
+    background-color: #121212;
+    padding: 6rem 4rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.author-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    text-align: left;
+}
+
+.author-image {
+    flex-shrink: 0;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.author-image img:first-of-type {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.author-signature-vector {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: auto;
+    display: block;
+    z-index: 3;
+}
+
+.author-text-content {
+    flex: 1;
+    max-width: 700px;
+    padding-top: 2rem;
+}
+
+.author-text-content h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: #f3ede3;
+}
+
+.author-text-content p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #b0b0b0;
+    margin-bottom: 1.5em;
+}
+
+
+@media (max-width: 1200px) {
+    .author-section {
+        padding: 4rem 2rem;
+    }
+    .author-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .author-image {
+        padding-bottom: 60px;
+    }
+    .author-image img:first-of-type {
+        max-width: 300px;
+    }
+    .author-signature-vector {
+        width: 200px;
+        bottom: -30px;
+    }
+    .author-text-content {
+        max-width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+    .author-text-content h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .author-image {
+        padding-bottom: 50px;
+    }
+    .author-image img:first-of-type {
+        max-width: 250px;
+    }
+    .author-signature-vector {
+        width: 180px;
+        bottom: -25px;
+    }
+    .author-text-content h2 {
+        font-size: 2.5rem;
+    }
+    .author-text-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .author-section {
+        padding: 3rem 1rem;
+    }
+    .author-image {
+        padding-bottom: 40px;
+    }
+    .author-image img:first-of-type {
+        max-width: 200px;
+    }
+    .author-signature-vector {
+        width: 150px;
+        bottom: -20px;
+    }
+    .author-text-content h2 {
+        font-size: 2rem;
+    }
+    .author-text-content p {
+        font-family:"Oswald", sans-serif ;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .author-image {
+        padding-bottom: 30px;
+    }
+    .author-image img:first-of-type {
+        max-width: 150px;
+    }
+    .author-signature-vector {
+        width: 120px;
+        bottom: -15px;
+    }
+    .author-text-content h2 {
+        font-size: 1.8rem;
+    }
+}
+
+
+.gallery-section {
+    background-color: #121212;
+    padding: 6rem 4rem;
+    text-align: center;
+}
+
+.gallery-header {
+    max-width: 800px;
+    margin: 0 auto 4rem auto;
+    color: #f3ede3;
+}
+
+.gallery-header h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.gallery-header p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #b0b0b0;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 616px;
+    justify-self: center;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+.gallery-item .item-info-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    color: #f3ede3;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.gallery-item .item-info-top h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.gallery-item .item-info-top span {
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 798.46px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item .item-description {
+    padding: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+    flex-grow: 1;
+}
+
+
+
+
+@media (min-width: 1300px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 616px);
+        gap: 3rem;
+    }
+}
+
+
+@media (max-width: 1299px) and (min-width: 769px) {
+    .gallery-container {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+    }
+    .gallery-item {
+        max-width: 100%;
+    }
+    .gallery-image {
+        height: 650px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .gallery-section {
+        padding: 3rem 1rem;
+    }
+    .gallery-header h2 {
+        font-size: 2.5rem;
+    }
+    .gallery-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .gallery-item {
+        max-width: 100%;
+    }
+    .gallery-image {
+        height: 450px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gallery-header h2 {
+        font-size: 2rem;
+    }
+    .gallery-header p {
+        font-size: 0.9rem;
+    }
+    .gallery-image {
+        height: 300px;
+    }
+    .gallery-item .item-info-top {
+        padding: 1rem 1rem 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .gallery-item .item-info-top h3 {
+        font-size: 1.1rem;
+    }
+    .gallery-item .item-description {
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+}
+
+
+.quote-section {
+    background-color: #1a1a1a;
+    padding: 6rem 4rem;
+    text-align: left;
+    color: #f3ede3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: auto;
+}
+
+.quote-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.quote-container blockquote {
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+
+@media (max-width: 1300px) {
+    .quote-section {
+        padding: 5rem 3rem;
+    }
+    .quote-container blockquote {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .quote-section {
+        padding: 4rem 2rem;
+    }
+    .quote-container {
+        padding: 0 3rem;
+    }
+    .quote-container blockquote {
+        font-size: 32px;
+        line-height: 130%;
+    }
+}
+
+@media (max-width: 768px) {
+    .quote-section {
+        padding: 3rem 1.5rem;
+    }
+    .quote-container {
+        padding: 0 2rem;
+    }
+    .quote-container blockquote {
+        font-size: 26px;
+        line-height: 125%;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote-section {
+        padding: 2.5rem 1rem;
+    }
+    .quote-container {
+        padding: 0 1rem;
+    }
+    .quote-container blockquote {
+        font-size: 20px;
+        line-height: 120%;
+    }
+}
+
+
+.buy-ticket-section {
+    background-color: #212121;
+    padding: 6rem 4rem;
+    color: #f3ede3;
+    font-family: 'Oswald', sans-serif;
+}
+
+.buy-ticket-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy-ticket-header .header-line {
+    border: none;
+    border-top: 1px solid #f3ede3;
+    width: 60%;
+    max-width: 600px;
+    margin-right: 2rem;
+}
+
+.buy-ticket-header h2 {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.ticket-options-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 6rem auto;
+    justify-content: center;
+}
+
+.ticket-card {
+    background-color: #1a1a1a;
+    border: 1px solid rgba(243, 237, 227, 0.1);
+    border-radius: 8px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.ticket-info-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+    min-height: 120px;
+}
+
+.ticket-exhibition-details {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+    margin: 0;
+    text-align: left;
+    flex-basis: 70%;
+}
+
+.ticket-price {
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #f3ede3;
+    flex-basis: 30%;
+    text-align: right;
+}
+
+.ticket-type {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #f3ede3;
+    margin-top: auto;
+    margin-bottom: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-buy-ticket-small {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #f3ede3;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    align-self: flex-start;
+}
+
+.btn-buy-ticket-small:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+.additional-info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(243, 237, 227, 0.1);
+    padding-top: 3rem;
+}
+
+.info-block {
+    text-align: left;
+}
+
+.info-block h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #f3ede3;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-block p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+    margin-bottom: 0.5rem;
+}
+
+.info-block p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+@media (max-width: 1200px) {
+    .buy-ticket-section {
+        padding: 5rem 2rem;
+    }
+    .buy-ticket-header h2 {
+        font-size: 2.5rem;
+    }
+    .ticket-options-container {
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 2rem;
+    }
+    .ticket-card {
+        padding: 2rem;
+        min-height: 350px;
+    }
+    .ticket-price {
+        font-size: 3rem;
+    }
+    .additional-info-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .buy-ticket-section {
+        padding: 4rem 1.5rem;
+    }
+    .buy-ticket-header {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-bottom: 3rem;
+    }
+    .buy-ticket-header .header-line {
+        width: 100%;
+        max-width: 300px;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .buy-ticket-header h2 {
+        font-size: 2rem;
+    }
+    .ticket-options-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .ticket-card {
+        padding: 1.5rem;
+        min-height: auto;
+    }
+    .ticket-price {
+        font-size: 2.5rem;
+    }
+    .ticket-type {
+        font-size: 1.5rem;
+    }
+    .btn-buy-ticket-small {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    .additional-info-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .info-block h4 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .info-block p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .buy-ticket-section {
+        padding: 3rem 1rem;
+    }
+    .buy-ticket-header h2 {
+        font-size: 1.8rem;
+    }
+    .ticket-card {
+        padding: 1rem;
+    }
+    .ticket-price {
+        font-size: 2rem;
+    }
+    .ticket-type {
+        font-size: 1.3rem;
+    }
+}
+
+
+.main-footer {
+    background-color: #EA3523;
+    padding: 4rem 4rem;
+    color: #f3ede3;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.footer-top {
+    margin-bottom: 3rem;
+}
+
+.footer-logo-img {
+    max-height: 50px;
+    width: auto;
+}
+
+.footer-middle {
+    margin-bottom: 4rem;
+}
+
+.sponsors-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: rgba(243, 237, 227, 0.7);
+}
+
+.sponsors-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.sponsor-logo {
+    max-height: 40px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(243, 237, 227, 0.2);
+    padding-top: 2rem;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: rgba(243, 237, 227, 0.8);
+    margin: 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-icon {
+    display: inline-block;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.social-icon img {
+    max-height: 25px;
+    width: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.social-icon:hover img {
+    opacity: 1;
+}
+
+.footer-email {
+    font-size: 0.9rem;
+    color: rgba(243, 237, 227, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-email:hover {
+    color: #f3ede3;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-footer {
+        padding: 3rem 2rem;
+    }
+    .footer-logo-img {
+        max-height: 40px;
+    }
+    .sponsors-logos {
+        gap: 2rem;
+    }
+    .sponsor-logo {
+        max-height: 35px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    .copyright,
+    .footer-email {
+        margin: 0;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-footer {
+        padding: 2rem 1.5rem;
+    }
+    .footer-logo-img {
+        max-height: 35px;
+    }
+    .sponsors-title {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .sponsors-logos {
+        gap: 1.5rem;
+    }
+    .sponsor-logo {
+        max-height: 30px;
+    }
+    .footer-bottom {
+        padding-top: 1.5rem;
+        gap: 1rem;
+    }
+    .copyright,
+    .footer-email {
+        font-size: 0.8rem;
+    }
+    .social-icon img {
+        max-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-footer {
+        padding: 1.5rem 1rem;
+    }
+    .footer-logo-img {
+        max-height: 30px;
+    }
+    .sponsors-title {
+        font-size: 0.9rem;
+    }
+    .sponsors-logos {
+        gap: 1rem;
+    }
+    .sponsor-logo {
+        max-height: 25px;
+    }
+    .social-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-icon img {
+        max-height: 18px;
+    }
+}
